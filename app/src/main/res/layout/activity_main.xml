@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ma.caipiao.MainActivity">
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/app_color"
+        android:textColor="@color/red"
+        android:layout_height="46dp"
+        android:text="梦想成真" />
+    <!--双色球-->
+    <RelativeLayout
+        android:id="@+id/rl_fucai"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_fucai"
+            android:layout_width="match_parent"
+            android:text="福彩 双色球"
+            android:paddingLeft="30dp"
+            android:gravity="center_vertical"
+            android:background="@color/app_color_p"
+            android:textSize="18sp"
+            android:layout_height="30dp" />
+        <EditText
+            android:id="@+id/et_fucai"
+            android:layout_below="@+id/tv_fucai"
+            android:layout_width="match_parent"
+            android:hint="机选 双色球"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btn_fucai"
+            android:layout_below="@+id/et_fucai"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/app_color"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textSize="18sp"
+            android:text="机选"/>
+    </RelativeLayout>
+    <!--大乐透-->
+    <RelativeLayout
+        android:id="@+id/rl_daletou"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/rl_fucai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_daletou"
+            android:layout_width="match_parent"
+            android:text="体彩 大乐透"
+            android:paddingLeft="30dp"
+            android:gravity="center_vertical"
+            android:background="@color/app_color_p"
+            android:textSize="18sp"
+            android:layout_height="30dp" />
+        <EditText
+            android:id="@+id/et_daletou"
+            android:layout_below="@+id/tv_daletou"
+            android:layout_width="match_parent"
+            android:hint="机选 大乐透"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btn_daletou"
+            android:layout_below="@+id/et_daletou"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/app_color"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textSize="18sp"
+            android:text="机选"/>
+    </RelativeLayout>
+
+    <!--七星彩-->
+    <RelativeLayout
+        android:id="@+id/rl_qixigncai"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/rl_daletou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_qixingcai"
+            android:layout_width="match_parent"
+            android:text="体彩 七星彩"
+            android:paddingLeft="30dp"
+            android:gravity="center_vertical"
+            android:background="@color/app_color_p"
+            android:textSize="18sp"
+            android:layout_height="30dp" />
+        <EditText
+            android:id="@+id/et_qixingcai"
+            android:layout_below="@+id/tv_qixingcai"
+            android:layout_width="match_parent"
+            android:hint="机选 七星彩"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btn_qixingcai"
+            android:layout_below="@+id/et_qixingcai"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/app_color"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textSize="18sp"
+            android:text="机选"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_color">#6DD826</color>
+    <color name="app_color_p">#fd5000</color>
+
+    <color name="text_color_alp">#aa646464</color>
+    <color name="blue">#13227a</color>
+    <color name="text_color_main_buttom_text">#67CDFF</color>
+    <color name="red">#ca1f1f</color>
+    <color name="gre">#05a841</color>
+    <color name="zi">#7205cc</color>
+    <color name="yollew">#FE9649</color>
+    <color name="huise">#ECE5E5</color>
+</resources>
